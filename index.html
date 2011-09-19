@@ -1,63 +1,40 @@
-<!doctype html>
-<html>
-	<head>
-		<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width" />
-		<title>Training App</title>
-		<link rel="stylesheet" href="assets/css/master.css" type="text/css" media="screen" />
-		
-		<script src="phonegap.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="assets/js/xui.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="assets/js/lawnchair/adaptors/LawnchairAdaptorHelpers.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="assets/js/lawnchair/adaptors/DOMStorageAdaptor.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="assets/js/lawnchair/adaptors/WebkitSQLiteAdaptor.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="assets/js/lawnchair/Lawnchair.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="assets/js/dsl.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="assets/js/app.js" type="text/javascript" charset="utf-8"></script>
-		
-	</head>
-	<body>
- 		<div id="title_bar">Phone<strong>Gap</strong> Training App</div>
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=false;" />
 
-		<div id="welcome" class="view">
-		  <div class="app_button" id="map_button">Show My Location</div>
-  	      <div class="app_button" id="settings_button">Settings</div>
-		</div>
+    <title>The Oxford Bubble - Find discounts and offers in Oxford using our mobile site</title>
+    
+    <link rel="stylesheet" href="http://m.theoxfordbubble.co.uk/mobile.css"/>
 
-		<div id="map" class="view">
-		  <div class="map_image">
-              <img id="static_map" src="assets/img/staticmap.png">
-		  </div>
-		  <p>This is where you are</p>
-		  <div class="app_button" id="welcome_button">Go Back</div>
-		</div>
+</head>
+<body>
 
-		<div id="settings" class="view">
-		  <form id="settings_form">
-		    <fieldset>
-		      <legend>Map Type</legend>
-			  <input type="radio" name="map" value="roadmap" checked>Road Map<br/>
-		      <input type="radio" name="map" value="satellite">Satellite<br/>
-		      <input type="radio" name="map" value="terrain">Terrain<br/>
-		      <input type="radio" name="map" value="hybrid">Hybrid<br/>
-		    </fieldset>
-		    <fieldset>
-		      <legend>Zoom Level</legend>
-  		      <input type="radio" name="zoom" value="10">Super Far<br/>
-  		      <input type="radio" name="zoom" value="12">Far<br/>
-  		      <input type="radio" name="zoom" value="15" checked>Normal<br/>
-  		      <input type="radio" name="zoom" value="18">Close<br/>
-  		      <input type="radio" name="zoom" value="20">Super Close<br/>
-  		     </fieldset>
-		      <button id="save_button">Save</button>
-	      </form>
-		</div>
+	<div id="banner">
+		<img src="Images/Icons_double_size_text.png" alt="The Oxford Bubble" width="263" height="45" border="0" usemap="#Map"/>
+        <map name="Map">
+          <area shape="rect" coords="-7,0,96,51" href="Deal_Week.html" alt="Deal of the Week">
+          <area shape="rect" coords="204,0,284,61" href="Categories.html" alt="Categories">
+<area shape="rect" coords="123,0,177,47" href="Featured.html" alt="Featured">
+        </map>
+</div>
 
-	</body>
+<div>
+<img src="http://m.theoxfordbubble.co.uk/Images/Duke_Cambridge_Mobile_Top(572x410).png" width="286" height="205">
+
+</div>
+
+<div class="Button"><a href="http://m.theoxfordbubble.co.uk/Locations/Nandos_Location2.html"><img src="http://m.theoxfordbubble.co.uk/Images/Location_button_up_red_326ppi(300x74).png" width="150" height="37"></a></div>
+
+<div class="Button"><a href="http://m.theoxfordbubble.co.uk/Terms/Nandos_Terms.html"><img src="http://m.theoxfordbubble.co.uk/Images/Terms_button_up_red_326ppi(300x74).png" width="150" height="37"></a></div>
+
+<div class="Button"><a href="http://m.theoxfordbubble.co.uk/Get_Code/Template.html"><img src="http://m.theoxfordbubble.co.uk/Images/Code_button_up_red_326ppi(300x74).png" width="150" height="37"></a></div>
+
+<div>
+<img src="http://m.theoxfordbubble.co.uk/Images/Duke_Cambridge_Mobile_Bottom(572x280).png" width="286" height="140">
+
+</div>
+
+</body>
 </html>
